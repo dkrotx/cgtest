@@ -11,5 +11,5 @@ sudo ./test.sh
 
 For non-Debian you propably know better what to install :-)
 
-## what is this lines about?
-You can easily catch this up seeing `latency_warn.go`
+## what this output tells us?
+You can easily catch this up seeing `test.sh` and `latency_warn.go`

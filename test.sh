@@ -36,5 +36,8 @@ if [[ ! -e /sys/fs/cgroup/cpu/weak ]]; then
 	trap "cgdelete cpu:/weak" EXIT
 fi
 
+##
+# in both cases you will get 25% of CPU usage for your app
+# but with very different delays
 launchTest 1000000 250000 # bad for latency, 0.75 sec sleep
 launchTest 10000 2500 # good for latency
