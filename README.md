@@ -13,3 +13,6 @@ For non-Debian you propably know better what to install :-)
 
 ## what this output tells us?
 You can easily catch this up seeing `test.sh` and `latency_warn.go`
+
+# Interesting how this works?
+See [this stackexchange answer](https://unix.stackexchange.com/a/223282).
